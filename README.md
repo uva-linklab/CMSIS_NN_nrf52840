@@ -118,5 +118,6 @@ Debugging: Our program uses RTT debugging, thus you can see the output of the pr
 We have encountered some issues with RTT sometimes. (Generates a linker error). According to  documentation you need to include SEGGER_RTT.h in your .c file and using SEGGER_RTT_printf or SEGGER_RTT_WriteString. This has not worked with us, but it did work for the blinky example. Thus in this example, the SDK_config.h enables us to log printf to RTT implicitly.
 
 Useful tutorials/posts:
-	- Starting with RTT : https://devzone.nordicsemi.com/tutorials/b/getting-started/posts/debugging-with-real-time-terminal
-	- Detailed tutorial about CIFAR10 and the example code: https://community.arm.com/processors/b/blog/posts/deploying-convolutional-neural-network-on-cortex-m-with-cmsis-nn
+
+- Starting with RTT : https://devzone.nordicsemi.com/tutorials/b/getting-started/posts/debugging-with-real-time-terminal
+- Detailed tutorial about CIFAR10 and the example code: https://community.arm.com/processors/b/blog/posts/deploying-convolutional-neural-network-on-cortex-m-with-cmsis-nn
