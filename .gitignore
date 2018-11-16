@@ -34,7 +34,7 @@
 *.app
 
 # OS X
-.DS_STORE
+.DS_Store
 
 # Python
 .ipynb_checkpoints/*
