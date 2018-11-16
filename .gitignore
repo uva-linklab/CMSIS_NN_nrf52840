@@ -1,54 +1,57 @@
 # Prerequisites
 *.d
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
+# Compiled Object files
+*.slo
 *.map
-*.exp
 *.in
+*.lo
+*.o
+*.obj
 
 # Precompiled Headers
 *.gch
 *.pch
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
+# Compiled Dynamic libraries
 *.so
-*.so.*
 *.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
 # Executables
 *.exe
 *.out
 *.app
-*.i*86
-*.x86_64
-*.hex
-*.bin
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# OS X
+.DS_STORE
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Python
+.ipynb_checkpoints/*
+
+# Tensorboard logs + tensorflow weights
+logs_sign/*
+output/*
+output_45/*
+
+# Dataset only upload the csv files
+sign_language_dataset_color/Dataset/0/*
+sign_language_dataset_color/Dataset/1/*
+sign_language_dataset_color/Dataset/2/*
+sign_language_dataset_color/Dataset/3/*
+sign_language_dataset_color/Dataset/4/*
+sign_language_dataset_color/Dataset/5/*
+sign_language_dataset_color/Dataset/6/*
+sign_language_dataset_color/Dataset/7/*
+sign_language_dataset_color/Dataset/8/*
+sign_language_dataset_color/Dataset/9/*
