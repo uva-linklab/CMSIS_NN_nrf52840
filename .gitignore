@@ -40,13 +40,13 @@
 .ipynb_checkpoints/*
 
 # Dataset only upload the csv files
-sign_language_dataset_color/Dataset/0/*
-sign_language_dataset_color/Dataset/1/*
-sign_language_dataset_color/Dataset/2/*
-sign_language_dataset_color/Dataset/3/*
-sign_language_dataset_color/Dataset/4/*
-sign_language_dataset_color/Dataset/5/*
-sign_language_dataset_color/Dataset/6/*
-sign_language_dataset_color/Dataset/7/*
-sign_language_dataset_color/Dataset/8/*
-sign_language_dataset_color/Dataset/9/*
+Number-Recognition-for-Sign-Language/sign_language_dataset_color/Dataset/0/*
+Number-Recognition-for-Sign-Language/sign_language_dataset_color/Dataset/1/*
+Number-Recognition-for-Sign-Language/sign_language_dataset_color/Dataset/2/*
+Number-Recognition-for-Sign-Language/sign_language_dataset_color/Dataset/3/*
+Number-Recognition-for-Sign-Language/sign_language_dataset_color/Dataset/4/*
+Number-Recognition-for-Sign-Language/sign_language_dataset_color/Dataset/5/*
+Number-Recognition-for-Sign-Language/sign_language_dataset_color/Dataset/6/*
+Number-Recognition-for-Sign-Language/sign_language_dataset_color/Dataset/7/*
+Number-Recognition-for-Sign-Languagesign_language_dataset_color/Dataset/8/*
+Number-Recognition-for-Sign-Language/sign_language_dataset_color/Dataset/9/*
