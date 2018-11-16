@@ -1,4 +1,4 @@
-# Number Recognition for Sign Language using CIMSIS NN library 
+# Number Recognition for Sign Language using CIMSIS NN 
 
 The purpose of this repository is to provide a full example for NN deployment on an edge device using the CMSIS NN library provided by ARM using the GCC toolchain. 
 Our main project attempts to deploy a CNN for Sign Language Recognition for Digits on an NRF52840.
@@ -9,7 +9,7 @@ A tutorial for using CMSIS NN for the CIFAR10 problem with the GCC toolchain can
 
 For more information on this project please check the pdf of the given presentation and the detailed pdf report.
 
-Requirements:
+###Requirements:
 - NRF52840 board 
 - A computer capable of running arm-gcc cross-compiler
 - Text editor
@@ -20,7 +20,7 @@ Requirements:
 - NRF5x Command Line tools
 - CMSIS Library
 
-Contents:
+###Contents:
 - `presentation_ie3ne.pdf`: brief presentation
 - `report_ie3ne.pdf`: detailed report of the project.
 - `cifar10_gcc_tutorial/`: tutorial for using the gcc toolchain with the CMSIS Neural Network component.
