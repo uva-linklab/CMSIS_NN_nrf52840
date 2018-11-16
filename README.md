@@ -21,17 +21,17 @@ Requirements:
 - CMSIS Library
 
 Contents:
-- presentation_ie3ne.pdf : brief presentation
-- report_ie3ne.pdf : detailed report of the project.
-- cifar10_gcc_tutorial: tutorial for using the gcc toolchain with the CMSIS Neural Network component.
-- Number-Recognition-for-Sign-Language/ :
-	- arm_sign_nb_64: contains the C/C++ compatible with the CMSIS library for the first attempt at the problem with `64x 64` input images. (Does not work because of the number of parameters, it is only included for reference)
-	- arm_sign_nb_45: contains the C/C++ compatible with the CMSIS library for the second more succesfull attempt at the problem with `45x 45` input images. This version runs but there is an issue with the way the weights were quantized and stored in the weights header. 
-	- sign_language_dataset_color : contains the dataset's formatted images in `Dataset/x_45.csv` and `Dataset/y_45` where x contains the images and y the labels. (`x_45.csv` contains `45 x 45` images whereas `x.csv` contains `64x64` images)
-	- tensorboard_logs : logs for Tensorboard visualization
-	- cnn_models_graphics : graphic representing the model architectures we tested. One with a `64 x 64` input and the other with a `45x45` input layer and different dense layers. 
-	- output_64: best model weights for architecture with `64x64` input architecture. 
-	- output_45: best model weights for architecture with `45x45` input architecture. 
-	- best_weights : contains the selected weights for the two architecture. 
-	- sign_nb.ipynb : python file containing the formatting of the images, visualization of the dataset, model training and finally generating the CMSIS compatible `inputs.h` file.
-	- quantization.ipynb: python file that loads the weights and attempts to do quantization and stores the modified weights with their parameters in the `weights.h` file . (Note that the implementation of quantization in this code is incorrect)
+- `presentation_ie3ne.pdf`: brief presentation
+- `report_ie3ne.pdf`: detailed report of the project.
+- `cifar10_gcc_tutorial/`: tutorial for using the gcc toolchain with the CMSIS Neural Network component.
+- `Number-Recognition-for-Sign-Language/`:
+	- `arm_sign_nb_64`: contains the C/C++ compatible with the CMSIS library for the first attempt at the problem with 64x64 input images. (Does not work because of the number of parameters, it is only included for reference)
+	- `arm_sign_nb_45`: contains the C/C++ compatible with the CMSIS library for the second more succesfull attempt at the problem with 45x45 input images. This version runs but there is an issue with the way the weights were quantized and stored in the weights header. 
+	- `sign_language_dataset_color`: contains the dataset's formatted images in `Dataset/x_45.csv` and `Dataset/y_45` where x contains the images and y the labels. (`x_45.csv` contains 45x45 images whereas `x.csv` contains 64x64 images)
+	- `tensorboard_logs`: logs for Tensorboard visualization
+	- `cnn_models_graphics`: graphic representing the model architectures we tested. One with a `64 x 64` input and the other with a 45x45 input layer and different dense layers. 
+	- `output_64`: best model weights for architecture with 64x64 input architecture. 
+	- `output_45`: best model weights for architecture with 45x45 input architecture. 
+	- `best_weights`: contains the selected weights for the two architecture. 
+	- `sign_nb.ipynb`: python file containing the formatting of the images, visualization of the dataset, model training and finally generating the CMSIS compatible `inputs.h` file.
+	- `quantization.ipynb`: python file that loads the weights and attempts to do quantization and stores the modified weights with their parameters in the `weights.h` file . (Note that the implementation of quantization in this code is incorrect)
