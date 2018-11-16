@@ -9,7 +9,7 @@ A tutorial for using CMSIS NN for the CIFAR10 problem with the GCC toolchain can
 
 For more information on this project please check the pdf of the given presentation and the detailed pdf report.
 
-###Requirements:
+## Requirements:
 - NRF52840 board 
 - A computer capable of running arm-gcc cross-compiler
 - Text editor
@@ -20,7 +20,7 @@ For more information on this project please check the pdf of the given presentat
 - NRF5x Command Line tools
 - CMSIS Library
 
-###Contents:
+## Contents:
 - `presentation_ie3ne.pdf`: brief presentation
 - `report_ie3ne.pdf`: detailed report of the project.
 - `cifar10_gcc_tutorial/`: tutorial for using the gcc toolchain with the CMSIS Neural Network component.
