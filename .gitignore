@@ -39,11 +39,6 @@
 # Python
 .ipynb_checkpoints/*
 
-# Tensorboard logs + tensorflow weights
-logs_sign/*
-output/*
-output_45/*
-
 # Dataset only upload the csv files
 sign_language_dataset_color/Dataset/0/*
 sign_language_dataset_color/Dataset/1/*
